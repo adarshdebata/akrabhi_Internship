@@ -2,12 +2,12 @@
 let dailyActivity = ['eat', 'sleep'];
 dailyActivity.push('repeat');
 console.log(dailyActivity);
-console.log(dailyActivity.length); //length of array
+console.log(dailyActivity.length); 
 
 // remove the last element
 let dailyActivity2 = ['work', 'eat', 'sleep', 'exercise'];
 dailyActivity2.pop();
-console.log(dailyActivities); 
+console.log(dailyActivity2); 
 const removedElement = dailyActivity2.pop();
 console.log(removedElement);
 console.log(dailyActivity2);
