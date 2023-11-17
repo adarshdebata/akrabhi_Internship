@@ -1,15 +1,29 @@
-let result
+let score = "Adarsh"
 
-//Implicit Conversion
-result = '3' + 2; 
-console.log(result);
+//console.log(typeof score);
+//console.log(typeof(score));
 
-result = '4' - '2'; 
-console.log(result);
+let valueInNumber = Number(score)
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
 
-//  Explicit Conversion
-result = Number(true);
-console.log(result); 
 
-result = Number(false);
-console.log(result); 
+// "33" => 33
+// "33abc" => NaN
+//  true => 1; false => 0
+
+let isLoggedIn = "Adarsh"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log(booleanIsLoggedIn);
+
+// 1 => true; 0 => false
+// "" => false
+// "Adarsh" => true
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
